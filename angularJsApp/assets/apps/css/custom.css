@@ -1,0 +1,89 @@
+﻿
+
+
+/*payment and payables table customization*/
+
+#pap-right-bar .heading-first {
+    background-color: #8e44ad;
+   
+}
+    #pap-right-bar .heading-first:hover {
+        background-color: rgba(142, 68, 173, 0.85)
+    }
+#pap-right-bar .heading-second {
+    background-color: #c49f47;
+}
+#pap-right-bar .heading-second:hover {
+    background-color: rgba(196, 159, 71, 0.85);
+}
+#pap-right-bar .heading-third {
+    background-color: #3598dc;
+}
+#pap-right-bar .heading-third:hover {
+    background-color: rgba(53, 152, 220, 0.85);
+}
+#pap-right-bar .panel-title{
+    color:white;
+    text-align:center;
+}
+#pap-right-bar .panel-title a:hover {
+    color: white;
+}
+   
+#pap-right-bar .panel-title a:focus {
+    color: white;
+}
+
+#pap-tables .form-group {
+    margin-bottom: 0;
+}
+/*autoSuggest style*/
+
+@charset "utf-8";
+
+.suggestions-list {
+    position: absolute;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: auto;
+    z-index: 100000;
+}
+
+    .suggestions-list li {
+        color: #000000;
+        padding: 5px 10px;
+        height: 20px;
+        cursor: pointer;
+        background: #ffffff;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        width: 200px;
+        height: 30px;
+        border-bottom: 1px solid #000000;
+        vertical-align: middle;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+
+        .suggestions-list li:last-child {
+            border-bottom: 1px solid #FFFFFF;
+        }
+
+        .suggestions-list li:hover {
+            background: #eb4800;
+            color: #FFFFFF;
+        }
+
+        .suggestions-list li.active {
+            color: #FFFFFF;
+            background: #eb4800;
+            width: 200px;
+        }
+
+    .suggestions-list:focus {
+        outline: none;
+    }
